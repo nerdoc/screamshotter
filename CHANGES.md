@@ -4,6 +4,7 @@ CHANGELOG
 2.0.14+dev   (XXXX-XX-XX)
 -------------------------
 
+* '--single-process' and '--disable-gpu' are now used by default.
 
 2.0.14       (2022-01-21)
 -------------------------

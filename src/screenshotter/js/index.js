@@ -15,6 +15,8 @@ const waitSelectors = JSON.parse(args.waitselectors);
     args: [
       '--no-sandbox',
       '--no-zygote',
+      '--single-process',
+      '--disable-gpu',
       '--disable-setuid-sandbox',
       // https://github.com/GoogleChrome/puppeteer/blob/master/docs/troubleshooting.md#tips
       '--disable-dev-shm-usage',
